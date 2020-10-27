@@ -4,12 +4,74 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title></title>
+<title>Insert title here</title>
+
+<script type="text/javascript">
 
 
+
+</script>
 
 </head>
 <body>
 
+<table>
+	<tr>
+		<th>회원가입</th>
+	</tr>
+	<tr>
+		<td>아이디</td>
+		<td><input type="text" id="id"/></td>
+		<td><button>아이디 체크</button></td>
+	</tr>
+	<tr>
+		<td>비밀번호</td>
+		<td><input type="password" id="password1"/></td>
+	</tr>
+	<tr>
+		<td>비밀번호 확인</td>
+		<td><input type="password" id="password2"/></td>
+		<td><button>비밀번호 체크</button></td>
+	</tr>
+	<tr>
+		<td>이메일</td>
+		<td><input type="text" id="email"/>@</td>
+		<td><input type="text" id="email"/></td>
+		<form action="?" method="post">
+				<select class="select" name="month">
+					<option selected="selected">gmail.com</option>
+					<option selected="selected">naver.com</option>
+					<option selected="selected">daum.com</option>
+					<option selected="selected">hotmail.com</option>
+				</select>
+			<input class="select" type="submit" value="보기">
+		</form>
+	</tr>
+</table>
+
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
