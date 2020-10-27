@@ -35,8 +35,8 @@
 	</tr>
 	<tr>
 		<td>이메일</td>
-		<td><input type="text" id="email"/>@</td>
-		<td><input type="text" id="email"/>
+		<td><input type="text" id="email1"/>@</td>
+		<td><input type="text" id="email2"/>
 			<form action="?" method="post">
 				<select class="select" name="emailAddr">
 					<option>gmail.com</option>
