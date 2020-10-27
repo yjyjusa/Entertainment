@@ -15,7 +15,7 @@
 </head>
 <body>
 
-<table>
+<table border="1">
 	<tr>
 		<th>회원가입</th>
 	</tr>
@@ -36,16 +36,17 @@
 	<tr>
 		<td>이메일</td>
 		<td><input type="text" id="email"/>@</td>
-		<td><input type="text" id="email"/></td>
-		<form action="?" method="post">
-				<select class="select" name="month">
-					<option selected="selected">gmail.com</option>
-					<option selected="selected">naver.com</option>
-					<option selected="selected">daum.com</option>
-					<option selected="selected">hotmail.com</option>
+		<td><input type="text" id="email"/>
+			<form action="?" method="post">
+				<select class="select" name="emailAddr">
+					<option>gmail.com</option>
+					<option>naver.com</option>
+					<option>daum.net</option>
+					<option>hotmail.com</option>
 				</select>
-			<input class="select" type="submit" value="보기">
-		</form>
+				<input class="select" type="submit" value="보기">
+			</form>
+		</td>
 	</tr>
 </table>
 
