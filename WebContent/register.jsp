@@ -4,14 +4,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title></title>
 
 
 
 </head>
 <body>
-	
-	<h2>연습 창</h2>
-	
+
 </body>
 </html>
